@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/datetimepicker/bootstrap-datetimepicker.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">"Торопова Дача" - территория твоего идеального отдыха</div>
+					</div>
+					<div class="header__contact">
+						<div class="contact-descr">Бронь и вопросы</div>
+						<a href="tel:+79781111111" class="phone-main"><img src="img/ic_phone.svg" alt="alt">+7 978 111 11 11</a>
+					</div>
+					<div class="header__right">
+						<a href="#" class="btn-main btn-main_whatsapp"><img src="img/ic_whatsapp.svg" alt="alt">Написать в Whatsapp</a>
+						<a href="#" class="btn-main"><img src="img/ic_btn1.svg" alt="alt">Выбрать беседку</a>
+						<a href="#" class="btn-main btn-main_menu"><img src="img/ic_menu.svg" alt="alt">Меню</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="billbord">
+			<div class="billbord__bottom">
+				<div class="container">
+					<form>
+						<div class="block-search">
+							<div class="block-search__item">
+								<div class="name-form">Уровень беседки</div>
+								<div class="ratings-wrap">
+									<div class="item-rating item-rating_1">
+										<label>
+											<input type="radio"  name="stars" />
+											<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>Эконом</span>
+										</label>
+									</div>
+									<div class="item-rating item-rating_2">
+										<label>
+											<input type="radio"  name="stars" />
+											<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>Эконом</span>
+										</label>
+									</div>
+									<div class="item-rating item-rating_3">
+										<label>
+											<input type="radio"  name="stars" />
+											<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>Эконом</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="block-search__item">
+								<div class="name-form">На какую дату</div>
+								<div class="wrap-date">
+									<input type="text" class="input-date" placeholder="Выберите дату">
+								</div>
+							</div>
+							<div class="block-search__item">
+								<div class="name-form">Количество гостей</div>
+								<div class="quantity">
+									<div class="quantity-button quantity-down"></div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up"></div>
+								</div>
+							</div>
+							<button class="btn-main btn-main_page"><img src="img/ic_search.svg" alt="alt">искать</button>
+						</div>
+					</form>
+					<div class="scrolldown-wrap">
+						<div class="scrolldown-wrap__title">Скрольте вниз</div>
+						<a href="#sect-brands" class="scroll-down"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="about">
+			<div class="container">
+				<div class="descr-title">/ коротко о даче</div>
+				<div class="title-section">Единение с природой здесь</div>
+				<div class="row row_about">
+					<div class="col-lg-4">
+						<div class="item-about">
+							<p>Торопова Дача - место силы вдаи от городской суеты. Всего 17 км от Севастополя на машине - и Вы в природном парке с живописными видами гор.</p>
+							<img src="img/icons_about.svg" alt="alt">
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item-about">
+							<p>Большая парковка при въезде. Возможность приобрести на ярмарке всё необходимое для комфортного досуга. </p>
+							<a href="#" class="btn-main btn-main_white"><img src="img/ic_btn2.svg" alt="alt">Подробней о даче</a>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item-about">
+							<p>Соберите Ваш идеальный отдых с помощью конструктора на сайте.</p>
+							<a href="#" class="btn-main"><img src="img/ic_btn1.svg" alt="alt">Выбрать беседку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="levels">
+			<div class="container">
+				<div class="descr-title">/ уровни</div>
+				<div class="title-section">Беседки на выбор</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<ul class="tabs-levels">
+							<li class="active"><a href="#tab_level1">Эконом <span class="stars-wrap stars-wrap_1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></a></li>
+							<li><a href="#tab_level2">Комфорт <span class="stars-wrap stars-wrap_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></a></li>
+							<li><a href="#tab_level3">Люкс <span class="stars-wrap stars-wrap_3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></a></li>
+						</ul>
+						<div class="info-levels">
+							<div class="info-levels__left">
+								<p>Общая площадь всех беседок</p>
+								<p>кв.м</p>
+							</div>
+							<div class="info-levels__value">663</div>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="tab-container-levels">
+							<div class="tab-pane-levels" id="tab_level1">
+								<div class="row">
+									<div class="col-lg-7">
+										<div class="wrap-slider-levels">
+											<ul class="slider-levels-for">
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+											</ul>
+											<ul class="slider-levels-nav">
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-5">
+										<div class="date-item">23 беседки</div>
+										<p>Как уже неоднократно упомянуто, элементы политического процесса неоднозначны и будут преданы социально-демократической анафеме. </p>
+										<p>Но реализация намеченных плановых заданий представляет собой интересный эксперимент проверки поставленных обществом задач.</p>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="box-info">
+													<img src="img/ic_info1.svg" alt="alt">
+													<strong>Площадь беседки</strong>
+													<span>от 23 кв.м</span>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="box-info">
+													<img src="img/ic_info2.svg" alt="alt">
+													<strong>Площадь беседки</strong>
+													<span>от 23 кв.м</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane-levels" id="tab_level2">
+								<div class="row">
+									<div class="col-lg-7">
+										<div class="wrap-slider-levels">
+											<ul class="slider-levels-for">
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+											</ul>
+											<ul class="slider-levels-nav">
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-5">
+										<div class="date-item">23 беседки</div>
+										<p>Как уже неоднократно упомянуто, элементы политического процесса неоднозначны и будут преданы социально-демократической анафеме. </p>
+										<p>Но реализация намеченных плановых заданий представляет собой интересный эксперимент проверки поставленных обществом задач.</p>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="box-info">
+													<img src="img/ic_info1.svg" alt="alt">
+													<strong>Площадь беседки</strong>
+													<span>от 23 кв.м</span>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="box-info">
+													<img src="img/ic_info2.svg" alt="alt">
+													<strong>Площадь беседки</strong>
+													<span>от 23 кв.м</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane-levels" id="tab_level3">
+								<div class="row">
+									<div class="col-lg-7">
+										<div class="wrap-slider-levels">
+											<ul class="slider-levels-for">
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-for__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+											</ul>
+											<ul class="slider-levels-nav">
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+												<li>
+													<div class="slider-levels-nav__item">
+														<img src="img/slide_level1.jpg" alt="alt">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-5">
+										<div class="date-item">23 беседки</div>
+										<p>Как уже неоднократно упомянуто, элементы политического процесса неоднозначны и будут преданы социально-демократической анафеме. </p>
+										<p>Но реализация намеченных плановых заданий представляет собой интересный эксперимент проверки поставленных обществом задач.</p>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="box-info">
+													<img src="img/ic_info1.svg" alt="alt">
+													<strong>Площадь беседки</strong>
+													<span>от 23 кв.м</span>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="box-info">
+													<img src="img/ic_info2.svg" alt="alt">
+													<strong>Площадь беседки</strong>
+													<span>от 23 кв.м</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="area">
+			<div class="container">
+				<div class="descr-title">/ пространство и инфраструктура</div>
+				<div class="title-section">Вдали от городской суеты</div>
+				<div class="switch-tabs">
+					<div class="switch-tabs__item">Пространство</div>
+					<div class="switcher"></div>
+					<div class="switch-tabs__item">Инфраструктура</div>
+				</div>
+				<div class="tab-container-switch">
+					<div class="tab-pane-switch">
+						<div class="row">
+							<div class="col-lg-3">
+								<ul class="tabs-area">
+									<li class="active"><a href="#tab_area1">Обширное озеленение</a></li>
+									<li><a href="#tab_area2">Своя инфраструктура</a></li>
+									<li><a href="#tab_area3">Ещё что-то</a></li>
+									<li><a href="#tab_area4">Ещё что-то</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-9">
+								<div class="tab-container-area">
+									<div class="tab-pane-area" id="tab_area1">
+										<ul class="slider-gallery">
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+										</ul>
+										<div class="info-area">
+											<div class="info-area__title">Обширное озеленение</div>
+											<p>Общая площадь зелёных насаждений более 2 гектар. Таунхаусы построены на возвышенности, с нескольких сторон окружены соснами и гольф-полем.</p>
+										</div>
+									</div>
+									<div class="tab-pane-area" id="tab_area2">
+										<ul class="slider-gallery">
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+										</ul>
+										<div class="info-area">
+											<div class="info-area__title">Своя инфраструктура</div>
+											<p>Общая площадь зелёных насаждений более 2 гектар. Таунхаусы построены на возвышенности, с нескольких сторон окружены соснами и гольф-полем.</p>
+										</div>
+									</div>
+									<div class="tab-pane-area" id="tab_area3">
+										<ul class="slider-gallery">
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+										</ul>
+										<div class="info-area">
+											<div class="info-area__title">Ещё что-то</div>
+											<p>Общая площадь зелёных насаждений более 2 гектар. Таунхаусы построены на возвышенности, с нескольких сторон окружены соснами и гольф-полем.</p>
+										</div>
+									</div>
+									<div class="tab-pane-area" id="tab_area4">
+										<ul class="slider-gallery">
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+										</ul>
+										<div class="info-area">
+											<div class="info-area__title">Ещё что-то</div>
+											<p>Общая площадь зелёных насаждений более 2 гектар. Таунхаусы построены на возвышенности, с нескольких сторон окружены соснами и гольф-полем.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane-switch">
+						<div class="row">
+							<div class="col-lg-3">
+								<ul class="tabs-area">
+									<li class="active"><a href="#tab_area1_1">Инфраструктура 1</a></li>
+									<li><a href="#tab_area2_1">Инфраструктура 2</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-9">
+								<div class="tab-container-area">
+									<div class="tab-pane-area" id="tab_area1_1">
+										<ul class="slider-gallery">
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+										</ul>
+										<div class="info-area">
+											<div class="info-area__title">Инфраструктура 1</div>
+											<p>Общая площадь зелёных насаждений более 2 гектар. Таунхаусы построены на возвышенности, с нескольких сторон окружены соснами и гольф-полем.</p>
+										</div>
+									</div>
+									<div class="tab-pane-area" id="tab_area2_1">
+										<ul class="slider-gallery">
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+											<li>
+												<div class="slider-gallery__item">
+													<img src="img/gallery_area1.jpg" alt="alt">
+												</div>
+											</li>
+										</ul>
+										<div class="info-area">
+											<div class="info-area__title">Инфраструктура 2</div>
+											<p>Общая площадь зелёных насаждений более 2 гектар. Таунхаусы построены на возвышенности, с нескольких сторон окружены соснами и гольф-полем.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/datetimepicker/moment-with-locales.js"></script>
+<script src="libs/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="libs/datetimepicker/ru.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

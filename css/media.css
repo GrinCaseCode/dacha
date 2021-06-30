@@ -1,0 +1,190 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1680px) {
+.header__contact {
+	margin-left: 45px;
+}
+.box-info {
+	padding-left: 37px;
+}
+.box-info img {
+	left: 13px;
+}
+.item-about {
+	font-size: 16px;
+	line-height: 27px;
+}
+}
+@media only screen and (max-width : 1600px) {
+
+}
+@media only screen and (max-width : 1500px) {
+.logo-descr {
+    line-height: 20px;
+    max-width: 210px;
+    margin-left: 11px;
+    font-size: 12px;
+}
+.phone-main {
+    font-size: 19px;
+    line-height: 25px;
+    }
+    .btn-main {
+    	font-size: 14px;
+    }
+    .header__contact {
+    	margin-left: 10px;
+    }
+
+.block-search {
+	max-width: 1230px;
+}
+.block-search__item {
+    padding: 0 15px;
+}
+.box-info {
+	font-size: 14px;
+	padding-right: 5px;
+}
+.slider-gallery {
+    max-width: 870px;
+    }
+    .info-area {
+    	max-width: 755px;
+    }
+}
+@media only screen and (max-width : 1350px) {
+.header__right .btn-main {
+	margin-left: 10px;
+}
+body {
+	font-size: 14px;
+	line-height: 24px;
+}
+.header__wrap {
+	padding-left: 10px;
+	padding-right: 15px;
+}
+.phone-main {
+    font-size: 18px;
+    line-height: 22px;
+}
+.contact-descr {
+    font-size: 13px;
+}
+.block-search {
+    max-width: 1040px;
+}
+.input-date {
+	width: 260px;
+}
+.block-search__item {
+	padding: 0 10px;
+}
+.item-rating span {
+    padding: 12px 15px;
+    }
+    .block-search .btn-main {
+    	padding: 20px 20px;
+    }
+    .ratings-wrap .item-rating {
+    margin-right: 9px;
+}
+.title-section {
+    font-size: 43px;
+    line-height: 52px;
+}
+.item-about {
+    font-size: 14px;
+    line-height: 24px;
+}
+.date-item {
+	margin-bottom: 15px; 
+}
+.switch-tabs {
+	font-size: 16px;
+}
+.slider-gallery {
+    max-width: 740px;
+    }
+    .info-area {
+    	max-width: 655px;
+    }
+    .slider-gallery__item {
+    height: 395px;
+}
+.tabs-area a {
+    font-size: 16px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1350px) {
+	.container {
+    max-width: 1350px;
+}
+}
+@media (min-width: 1500px) {
+	.container {
+    max-width: 1500px;
+}
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1500px;
+}
+}
+@media (min-width: 1680px) {
+	.container {
+    max-width: 1680px;
+}
+}
