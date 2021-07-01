@@ -1081,9 +1081,9 @@ transition: all 0.3s;
 	transition: all 0.3s;
 	border-radius: 20px;
 }
-.footer .title-section {
+.footer .title-section { 
 	padding-bottom: 44px;
-}
+} 
 .item-contact {
 	font-size: 18px;
 	margin-bottom: 45px;
