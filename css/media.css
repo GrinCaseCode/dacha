@@ -13,6 +13,10 @@
 	font-size: 16px;
 	line-height: 27px;
 }
+
+.item-contact {
+    font-size: 17px;
+    }
 }
 @media only screen and (max-width : 1600px) {
 
@@ -51,6 +55,23 @@
     .info-area {
     	max-width: 755px;
     }
+    .item-contact {
+    font-size: 15px;
+    margin-bottom: 47px;
+}
+.insta-title {
+    font-size: 20px;
+    }
+    .insta-block {
+        padding: 5px;
+    }
+    .item-service__name {
+        min-height: 48px;
+    }
+    .btn-social__icon {
+    width: 89px;
+    margin-right: 17px;
+}
 }
 @media only screen and (max-width : 1350px) {
 .header__right .btn-main {
@@ -115,6 +136,55 @@ body {
 .tabs-area a {
     font-size: 16px;
     }
+    .feature-service {
+        margin-left: 0;
+    }
+    .item-service {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature-service {
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 13px;
+        border-width: 4px;
+    }
+    .schema-block__title {
+    font-size: 20px;
+}
+.reservation-block {
+    padding-left: 15px;
+    padding-right: 35px;
+}
+.item-news__title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 17px;
+    }
+    .item-news__text {
+        margin-bottom: 15px;
+    }
+    .item-news__category {
+        margin-bottom: 15px;
+    }
+.insta-block {
+    height: 238px;
+}
+    .news .title-section {
+    padding-bottom: 36px;
+}
+.insta-title {
+    font-size: 18px;
+    padding-top: 27px;
+    padding-bottom: 34px;
+}
+.btn-social__icon {
+    width: 85px;
+    margin-right: 7px;
+}
+.item-contact {
+    margin-bottom: 40px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
