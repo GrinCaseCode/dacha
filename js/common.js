@@ -34,6 +34,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 
+$(".map-wrap .btn-main").click(function(e) {
+	e.preventDefault();
+		$(this).fadeOut(200);
+	});
+
 $('.input-date').datetimepicker({
 	format: 'DD/MM/YYYY',
 	inline: false,
